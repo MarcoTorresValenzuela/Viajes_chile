@@ -7,6 +7,11 @@ body {
   color: #373A3C;
   background-color: black;
 }
+
+#logo{
+  width: 10%;
+  
+}
 nav{
   background-color: #373A3C
 }
