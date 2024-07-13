@@ -22,146 +22,90 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark mb-4">
-    <div class="container">
-      <img href="#" class="navbar-brand" src="assets/img/viajes.svg" alt="Logo" id="logo">
-      <h1><a class="navbar-brand nombre_local_nav" id="nombre_local" href="#">Viajes Chile</a></h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  
+
+  <header class="pb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Viajes Chile
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Receta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel1.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel1.jpg">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Receta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </nav>
-
-  <header class="container pb-5">
-    <hr class="d-block d-sm-none" width="100%" size="4" />
-    <div class="row py-2">
-      <div class="col-12 col-md-6">
-        <img id="imagen_1" src="assets/img/principal.jpg" alt="imagen de pizza">
-      </div>
-      <div class="col-12 col-md-6 d-flex flex-column custom-center">
-        <h1 class="fw-bold my-5">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
-        <hr width="100%" size="5" />
-        <p class="fw-bold">110 MIN / 6 A 8 PORCIONES</p>
-        <div>
-          <button class="btn btn-outline-secondary text-dark me-3 boton_responsivo" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" data-bs-title="Presiona para enviar a tu correo" id="enviarCorreo">Enviar por
-            correo</button>
-          <button class="btn btn-outline-secondary text-dark boton_responsivo" data-bs-toggle="tooltip"
-            data-bs-placement="right" data-bs-title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
-        </div>
-      </div>
-    </div>
-    <div class="row d-none d-md-block">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner my-5">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider3.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider4.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider5.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider6.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider7.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="col-3 d-none d-md-block">
-                <img src="assets/img/slider8.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <hr width="100%" size="4" ; />
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </header>
 
   <article>
-    <section class="container">
-      <h2 class="display-4 fw-bold text-center mb-3 text-dark">¿QUIENES SOMOS?</h2>
-      <hr width="100%" size="4" />
+    <section class="container d-none d-md-block">
+      <h2 class="display-4 fw-bold text-center mb-3 text-ligth">¿QUIENES SOMOS?</h2>
+      <hr width="80%" size="4"/>
       <div class="row">
         <div class="col-12 col-sm-4 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
-            <img src="assets/img/card1.jpg" class="card-img-top img-work"
-              alt="imagen PANQUEQUES CON MANJAR Y CREMA" />
+            <i class="fa-solid fa-plane fa-2xl p-4"></i>
             <div class="card-body">
-              <h5 class="card-title fw-bold Titulos_cartas"> PANQUEQUES CON MANJAR Y CREMA</h5>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
-                nostra,
-                blandit erat luctus faucibus orci.</p>
+    
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores accusamus, doloremque perferendis praesentium repellat similique, sit voluptate distinctio nesciunt temporibus, eveniet blanditiis quam cumque voluptatem dignissimos debitis illum consequatur?</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-4 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
-            <img src="assets/img/card2.jpg" class="card-img-top img-work" alt="imagen TIRAMISÚ" />
             <div class="card-body ">
-              <h5 class="card-title fw-bold Titulos_cartas">TIRAMISÚ</h5>
-              <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed
-                faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+              
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi exercitationem inventore consequatur. Incidunt fugiat esse nobis, officiis officia quasi placeat aliquam? Vero facere aspernatur ducimus at dolore, aperiam sit?</p>
             </div>
+            <i class="fa-solid fa-mountain fa-2xl p-4"></i>
           </div>
         </div>
         <div class="col-12 col-sm-4 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
-            <img src="assets/img/card3.jpg" class="card-img-top img-work" alt="imagen Salmones de Alaska" />
+            <i class="fa-solid fa-route fa-2xl p-4"></i>
             <div class="card-body ">
-              <h5 class="card-title fw-bold Titulos_cartas">Salmones de Alaska</h5>
-              <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
-                eleifend
-                risus, urna auctor inceptos mattis dapibus.</p>
+    
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error facilis iure obcaecati debitis illo illum libero nihil, neque ad, consectetur excepturi ipsa dignissimos laudantium vitae ipsam eum nulla quae officia.</p>
             </div>
           </div>
         </div>
@@ -179,7 +123,7 @@
           <div class="card flex-fill contenedor_cartas">
             <img src="assets/img/card1.jpg" class="card-img-top img-work"
               alt="imagen PANQUEQUES CON MANJAR Y CREMA" />
-            <div class="card-body">
+            <div class="card-body card-destacados">
               <h5 class="card-title fw-bold Titulos_cartas"> PANQUEQUES CON MANJAR Y CREMA</h5>
               <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
                 nostra,
@@ -190,7 +134,7 @@
         <div class="col-12 col-sm-3 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
             <img src="assets/img/card2.jpg" class="card-img-top img-work" alt="imagen TIRAMISÚ" />
-            <div class="card-body ">
+            <div class="card-body card-destacados">
               <h5 class="card-title fw-bold Titulos_cartas">TIRAMISÚ</h5>
               <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed
                 faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
@@ -200,7 +144,7 @@
         <div class="col-12 col-sm-3 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
             <img src="assets/img/card3.jpg" class="card-img-top img-work" alt="imagen Salmones de Alaska" />
-            <div class="card-body ">
+            <div class="card-body card-destacados">
               <h5 class="card-title fw-bold Titulos_cartas">Salmones de Alaska</h5>
               <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
                 eleifend
@@ -211,7 +155,7 @@
         <div class="col-12 col-sm-3 py-4 d-flex">
           <div class="card flex-fill contenedor_cartas">
             <img src="assets/img/card4.jpg" class="card-img-top img-work" alt="imagen Salmones de Alaska" />
-            <div class="card-body ">
+            <div class="card-body card-destacados">
               <h5 class="card-title fw-bold Titulos_cartas">Salmones de Alaska</h5>
               <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
                 eleifend
@@ -245,7 +189,8 @@
           </div>
           <!-- Boton enviar -->
            <div class="my-3 text-start">
-              <button class="btn btn-info text-light">Enviar</button>
+              <button class="btn btn-info text-light"data-bs-toggle="tooltip"
+                data-bs-placement="right" data-bs-title="Botonsito para enviar correos"id="enviarmensaje">Enviar</button>
            </div>
       </form>
     </section>
@@ -263,6 +208,7 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
     integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/69c6fe5dfe.js" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

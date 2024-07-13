@@ -92,6 +92,29 @@ ol li{
   font-size: 30pt;
 }
 
+
+
+
+
+
+
+.fa-solid{
+  color: white;
+  text-align: center;
+  background-color: rgb(13 202 240);
+  
+}
+.card-destacados{
+  background-color: rgb(13 202 240);
+}
+
+
+
+
+
+
+
+
 section button{
   width: 80% !important; 
   max-width: 250px;
@@ -106,9 +129,6 @@ footer h1{
 
 
 @media (max-width: 400px) {
-    .custom-center {
-        text-align: center !important;
-    }
   .boton_responsivo{
     margin-right: 5px !important;
     margin-bottom: 10px;
@@ -122,6 +142,6 @@ footer h1{
     padding-left: 11% !important;
   }
   .nombre_local_nav{
-    font-size: 30pt;
+    font-size: 20pt;
   }
 }
