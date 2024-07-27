@@ -20,3 +20,11 @@ $(".Titulos_cartas").click(function () {
   $(".contenedor_cartas p").toggle();
 });
 
+window.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 500) { // Ajusta el valor 50 a la distancia deseada
+    navbar.classList.add('navbar-scrolled');
+  } else {
+    navbar.classList.remove('navbar-scrolled');
+  }
+});
