@@ -9,11 +9,6 @@ body {
   background-color: black;
 }
 
-#logo {
-  width: 10%;
-
-}
-
 nav {
   background-color: #373A3C
 }
@@ -28,65 +23,12 @@ nav {
 }
 
 #imagenes_carrusel {
-  max-height: 2592px !important;
+  max-height: 2000px !important;
 }
 
 hr {
   opacity: 1 !important;
-
 }
-
-#nombre_local {
-  font-family: "Lobster", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.nombre_local_nav {
-  font-size: 37pt;
-}
-
-.carousel-indicators {
-  position: relative !important;
-}
-
-.carousel-indicators button {
-  width: 20px !important;
-  height: 20px !important;
-  border-radius: 50% !important;
-  background-color: #373A3C31 !important;
-}
-
-.carousel-indicators .active {
-  background-color: #373A3C !important;
-}
-
-h3 {
-  margin-bottom: 20px;
-}
-
-.subraya_1 {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 10px;
-  text-decoration-color: #000;
-}
-
-.subraya_1_color {
-  color: red;
-}
-
-.subraya_2 {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 10px;
-  text-decoration-color: #000;
-}
-
-.subraya_2_color {
-  color: red;
-}
-
 
 .card-body {
   background-color: black;
@@ -136,27 +78,11 @@ section button {
   max-width: 250px;
 }
 
-.seccion_sub {
-  background-color: #DC3545;
-}
+
 
 @media (max-width: 400px) {
-  .boton_responsivo {
-    margin-right: 5px !important;
-    margin-bottom: 10px;
-    font-size: 8pt;
-  }
-
-  .letra_section_ultima {
-    font-size: 16pt;
-  }
-
   .container {
     padding-right: 11% !important;
     padding-left: 11% !important;
-  }
-
-  .nombre_local_nav {
-    font-size: 20pt;
   }
 }
